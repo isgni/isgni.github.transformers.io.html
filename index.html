@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+       
+        <div class="logo">ART ISGNI</div>
+        <ul data-aos="fade-down" data-aos-duration="800">
+
+
+        <button>Home  </button>
+        <button>News </button>
+        <button>About</button>
+        <button>Contact</button>
+
+        </ul>
+      </div>
+      <div
+        class="banner"
+        style="background-image: url('transformers-rise-of-the-beasts.jpg')"
+      >
+        <div
+          class="glass-wrapper"
+          data-aos="fade-right"
+          data-aos-delay="300"
+          data-aos-duration="800"
+        ></div>
+      </div>
+      <div class="hero-title">
+        <p data-aos="fade-left" data-aos-delay="500" data-aos-duration="700">
+          Transformers
+        </p>
+        <p
+          class="country"
+          class="country"
+          data-aos="fade-left"
+          data-aos-delay="600"
+          data-aos-duration="700"
+        >
+          The Rise of the Beasts
+        </p>
+        <div
+          class="details"
+          class="details"
+          data-aos="fade-left"
+          data-aos-delay="700"
+          data-aos-duration="700"
+        >
+         Rise of the Beasts will see Autobots Optimus Prime 
+         (Peter Cullen), Bumblebee, Arcee (Liza Koshy), Wheeljack 
+         (Cristo Fernández) and Mirage (Pete Davidson) team up with a new faction of Cybertronians named the Maximals.
+
+
+        </div>
+        <div
+          class="explore"
+          class="explore"
+          data-aos="fade-left"
+          data-aos-delay="800"
+          data-aos-duration="700"
+        >
+          <button>More</button>
+        </div>
+      </div>
+      <div class="tourist-list">
+        <ul class="place-list">
+          <li
+            class="active"
+            data-aos="fade-down"
+            data-aos-delay="600"
+            data-aos-duration="700"
+            data-img="giphy.gif"
+          >
+            <div
+              class="thumbnail"
+              style="background: url('transformers-rise-of-the-beasts.jpg')"
+            >
+              <div class="details">
+                <p class="province">Line up</p>
+                <p class="place-name">Battle</p>
+              </div>
+            </div>
+          </li>
+          <li
+            data-img="giphy 2.gif"
+            data-aos="fade-down"
+            data-aos-delay="750"
+            data-aos-duration="700"
+          >
+            <div
+              class="thumbnail"
+              style="background: url('optimus.jpg')"
+            >
+              <div class="details">
+                <p class="province">Optimus</p>
+                <p class="place-name">Prime</p>
+              </div>
+            </div>
+          </li>
+          <li
+            data-img="giphy3.gif"
+            data-aos="fade-down"
+            data-aos-delay="850"
+            data-aos-duration="700"
+          >
+            <div
+              class="thumbnail"
+              style="background: url('pic2.jpeg')"
+            >
+              <div class="details">
+                <p class="province">Rising</p>
+                <p class="place-name">Allies</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+  <style>
+button,button::after {
+  padding: 10px 50px;
+  font-size: 20px;
+  border:navajowhite;
+  border-radius: 10px;
+  color: rgb(233, 234, 227);
+  background-color: transparent;
+  position: relative;
+}
+
+button::after {
+  --move1: inset(50% 50% 50% 50%);
+  --move2: inset(31% 0 40% 0);
+  --move3: inset(39% 0 15% 0);
+  --move4: inset(45% 0 40% 0);
+  --move5: inset(45% 0 6% 0);
+  --move6: inset(14% 0 61% 0);
+  clip-path: var(--move1);
+  content: 'GLITCH';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
+
+button:hover::after {
+  animation: glitch_4011 1s;
+  text-shadow: 10 10px 10px black;
+  animation-timing-function: steps(2, end);
+  text-shadow: -3px -3px 0px #1df2f0, 3px 3px 0px #E94BE8;
+  background-color: transparent;
+  border: 3px solid rgb(0, 255, 213);
+}
+
+button:hover {
+  text-shadow: -1px -1px 0px #1df2f0, 1px 1px 0px #E94BE8;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 1px solid rgb(0, 255, 213);
+  box-shadow: 0px 10px 10px -10px rgb(0, 255, 213);
+}
+
+@keyframes glitch_4011 {
+  0% {
+    clip-path: var(--move1);
+    transform: translate(0px,-10px);
+  }
+
+  10% {
+    clip-path: var(--move2);
+    transform: translate(-10px,10px);
+  }
+
+  20% {
+    clip-path: var(--move3);
+    transform: translate(10px,0px);
+  }
+
+  30% {
+    clip-path: var(--move4);
+    transform: translate(-10px,10px);
+  }
+
+  40% {
+    clip-path: var(--move5);
+    transform: translate(10px,-10px);
+  }
+
+  50% {
+    clip-path: var(--move6);
+    transform: translate(-10px,10px);
+  }
+
+  60% {
+    clip-path: var(--move1);
+    transform: translate(10px,-10px);
+  }
+
+  70% {
+    clip-path: var(--move3);
+    transform: translate(-10px,10px);
+  }
+
+  80% {
+    clip-path: var(--move2);
+    transform: translate(10px,-10px);
+  }
+
+  90% {
+    clip-path: var(--move4);
+    transform: translate(-10px,10px);
+  }
+
+  100% {
+    clip-path: var(--move1);
+    transform: translate(0);
+  }
+}
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0px auto;
+  align-items: center;
+}
+
+.header .logo {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-size: 25px;
+  font: bold;
+  color: #cc8915;
+}
+
+
+
+.banner {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  transition: 2s ease;
+}
+
+.banner .glass-wrapper {
+  width: 30%;
+  height: 100%;
+  background: rgba(208, 63, 63, 0.15);
+  box-shadow: 0 0px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.hero-title {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding-top: 13rem;
+}
+  
+  .hero-title p {
+    font-size: 47px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 60px;
+    color: #ddc359;
+  }
+
+
+  .hero-title .country {
+    font: bold;
+    font-size: 80px;
+    letter-spacing: 3px;
+  
+   
+  }
+
+.hero-title .details {
+  width: 60%;
+  padding-top: 1.5rem;
+  color: #fff;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  padding-bottom: 2.5rem;
+}
+
+.hero-title .explore button {
+  background: rgba(189, 189, 189, 0.299);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: none;
+  color: #eaed56;
+  padding: 12px 50px;
+  border-radius: 50px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+.tourist-list {
+  bottom: 25px;
+  position: absolute;
+  left: 35rem;
+}
+
+.tourist-list p {
+  color: #fff;
+  padding-left: 20px;
+  margin-bottom: auto;
+  line-height: 24px;
+}
+
+.tourist-list ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  width: 65vw;
+  height: 15rem;
+  align-items: center;
+}
+
+.tourist-list .thumbnail {
+  display: flex;
+  height: 10rem;
+  width: 18rem;
+  background-size: cover !important;
+  border-radius: 8px;
+  flex-direction: column;
+}
+
+.tourist-list .thumbnail .details {
+  margin-top: auto;
+  padding: 10px 0px;
+  background: rgba(38, 38, 38, 0.05);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.details .place-name {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.details .province {
+  font-weight: 300;
+}
+
+.tourist-list .active {
+  margin-top: -5rem;
+}
+
+
+
+  </style>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    let places = document.querySelectorAll(".place-list li");
+    let active = "transformers-rise-of-the-beasts.jpg";
+
+    places.forEach((e) => {
+      e.addEventListener("mouseenter", (event) => {
+        places.forEach((e) => {
+          e.classList.remove("active");
+        });
+
+        event.target.classList.add("active");
+        active = event.target.getAttribute("data-img");
+        let banner = document.querySelector(".banner");
+        banner.style.backgroundImage = `url('${active}')`;
+      });
+    });
+  </script>
+</html>
